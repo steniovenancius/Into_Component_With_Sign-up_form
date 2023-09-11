@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Into Component With Sign-up Form</title>
+    <link rel="shortcut icon" href="/src/images/favicon-32x32.png" type="image/x-icon">
+    
+    <!-- Normalize Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+<body> <!-- background colors -->
+    <main> <!-- Grid Box -->
+        <section id="left"> <!-- Display: flex; justify-content: center -->
+            <div id="text">
+                <h1>Learn to cody by <br> watching others</h1>
+                <p>
+                    See how experienced developers solve problems in real-time.
+                    Watching scripted tutorials is great, but understanding how
+                    developers thins is invaluable
+                </p>
+            </div>
+        </section>
+        <section id="right">
+            <span><b>Try it free 7 days</b> then $20/mo. thereafter</span>
+            <form action="#" method="get" autocomplete="off">
+                <label for="firstName">
+                    <input type="text" id="firstName" placeholder="First Name" autocomplete="off">
+                    <small id="erroFirtsName" class="erro">First Name cannot be empty</small>
+                </label>
+                <label for="lastName">
+                    <input type="text" id="lastName" placeholder="Last Name" autocomplete="off">
+                    <small id="erroLastName" class="erro">Last Name cannot be empty</small>
+                </label>
+                <label for="email">
+                    <input type="email" id="email" placeholder="Email Address" autocomplete="off">
+                    <small id="erroEmail" class="erro">Looks like this is not an email</small>
+                </label>
+                <label for="password">
+                    <input type="password" id="password" placeholder="Password" autocomplete="off">
+                    <small id="erroPassword" class="erro">Password cannot be empty</small>
+                </label>
+                <input type="submit" name="Send" value="CLAIM YOUR FREE TRIAL" onclick="enviando()">
+                <small>By clicking the button, you are agreeing to our <b>Terms and Services</b></small>
+            </form>
+    </main>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
