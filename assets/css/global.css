@@ -7,7 +7,7 @@
 
 body {
     background-color: hsl(0, 100%, 74%);
-    background-image: url(/src/images/bg-intro-mobile.png);
+    background-image: url(../../src/images/bg-intro-mobile.png);
 }
 
 main {
@@ -94,7 +94,7 @@ input:focus {
 .inputErro {
     border-width: 2px;
     border-color: hsl(0, 100%, 74%);
-    background-image: url(/src/images/icon-error.svg);
+    background-image: url(../../src/images/icon-error.svg);
     background-repeat: no-repeat;
     background-position: 95% center;
 }
